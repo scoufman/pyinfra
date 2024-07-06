@@ -145,7 +145,7 @@ All operations return an operation meta object which provides information about 
 
     server.shell(
         name="Bootstrap user",
-        command=["..."],
+        commands=["..."],
         _if=create_user,
     )
 
